@@ -5,7 +5,7 @@ import (
 	"github.com/iagoid/HunCoding-Primeiro-CRUD/src/model"
 )
 
-func NewUserDomainService() *userDomainService {
+func NewUserDomainService() UserDomainService {
 	return &userDomainService{}
 }
 
